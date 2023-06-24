@@ -1,0 +1,199 @@
+body {
+  background-color: #000000;
+}
+
+.header {
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1312px;
+  margin: 60px auto;
+}
+.header__logo {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #FAFAF9;
+}
+.header__nav {
+  max-width: 492px;
+  display: flex;
+}
+.header__nav-link {
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 12px;
+  color: #FAFAF9;
+}
+.header__nav-link:nth-child(2) {
+  margin-left: 20px;
+}
+.header__nav-link:nth-child(3) {
+  margin-left: 20px;
+}
+.header__nav-link:nth-child(4) {
+  margin-left: 20px;
+}
+.header__nav-link:nth-child(5) {
+  margin-left: 20px;
+}
+.header__nav-link:nth-child(6) {
+  margin-left: 20px;
+}
+
+.main {
+  max-width: 1255px;
+  height: 741px;
+  margin: 180px auto;
+  border: 1px solid #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+.main__title {
+  margin-top: -10px;
+  font-family: "Kanit", sans-serif;
+  max-width: 883px;
+  height: 340px;
+  letter-spacing: 10;
+  line-height: 170px;
+  font-size: 192px;
+  color: #FAFAF9;
+}
+.main__paragraf {
+  margin-top: -66px;
+  max-width: 560px;
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgba(239, 237, 232, 0.65);
+}
+.main__button {
+  width: 200px;
+  height: 70px;
+  background: #E6533C;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.main__button-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+.main__paragraf-2 {
+  margin-top: 70px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: rgba(239, 237, 232, 0.65);
+}
+.main__comanis-logo {
+  margin-top: 33px;
+}
+.main__man-img {
+  position: absolute;
+  z-index: 100;
+  top: 50px;
+  left: 718px;
+}
+.main__button-item-1 {
+  position: absolute;
+  top: 26px;
+  left: 1010px;
+  z-index: 200;
+}
+.main__button-item-2 {
+  position: absolute;
+  z-index: 200;
+  top: 415px;
+  left: 590px;
+}
+.main__button-item-3 {
+  position: absolute;
+  z-index: 200;
+  top: 513px;
+  left: 1060px;
+}
+.main__block-4-cards {
+  max-width: 1312px;
+  height: 338px;
+  margin: 200px auto;
+  border: 1px solid #ffffff;
+}
+.main__curds-blok-title {
+  margin: 0px 0 0 0;
+  font-size: 40px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0.3px;
+  color: #FAFAF9;
+}
+.main__curds-blok-p {
+  margin: 24px 0 0 0;
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 16px;
+  font-family: Inter;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 1199px) {
+  body {
+    background-color: white;
+  }
+  /* HEADER ADAPTIV */
+  .header {
+    background-color: white;
+  }
+  .header__logo {
+    color: #171717;
+  }
+  .header__nav-link {
+    color: #171717;
+  }
+  /* MAIN */
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* MAIN FIRSRT CARD */
+  }
+  .main__title {
+    color: #171717;
+  }
+  .main__paragraf {
+    margin: -46px 0 0 160px;
+    color: #171717;
+  }
+  .main__button-text {
+    color: #171717;
+  }
+  .main__paragraf-2 {
+    color: #171717;
+  }
+  .main__comanis-logo {
+    background-color: #171717;
+  }
+  .main__man-img {
+    display: none;
+  }
+  .main__button-item-1 {
+    display: none;
+  }
+  .main__button-item-2 {
+    display: none;
+  }
+  .main__button-item-3 {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
